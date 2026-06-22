@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://avatars.githubusercontent.com/u/192087837?v=4" width="100" style="border-radius: 50%;" alt="Sridhar Mahalingam" />
+
 # 🚗 Sridhar Car Wash
 
 ### Premium Car Care Booking Platform
@@ -179,7 +181,6 @@ carwash-app/
 - Flutter 3.10+ / Dart 3.0+
 - PostgreSQL 15+
 - Redis 7+
-- Node.js (optional — for API doc preview)
 
 ---
 
@@ -187,7 +188,7 @@ carwash-app/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/carwash-app.git
+git clone https://github.com/Sridhar08-glitch/carwash-app.git
 cd carwash-app/backend
 
 # 2. Create and activate virtual environment
@@ -217,7 +218,7 @@ celery -A config worker -l info
 celery -A config beat -l info --scheduler django_celery_beat.schedulers:DatabaseScheduler
 ```
 
-> **WebSocket support (Phase 3):** Set `CHANNELS_ENABLED=True` in `.env` and run via Daphne or Uvicorn instead of `runserver`.
+> **WebSocket support:** Set `CHANNELS_ENABLED=True` in `.env` and run via Daphne or Uvicorn instead of `runserver`.
 
 ---
 
@@ -312,10 +313,22 @@ SENTRY_DSN=
 
 <div align="center">
 
-**Sridhar**
+<img src="https://avatars.githubusercontent.com/u/192087837?v=4" width="120" style="border-radius: 50%;" alt="Sridhar Mahalingam" />
 
-[![GitHub](https://img.shields.io/badge/GitHub-YOUR__USERNAME-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
-[![Email](https://img.shields.io/badge/Email-software%40holoraperformance.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:software@holoraperformance.com)
+### Sridhar Mahalingam
+
+*Full Stack Developer · Doha, Qatar*
+
+[![GitHub](https://img.shields.io/badge/GitHub-Sridhar08--glitch-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sridhar08-glitch)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-sridhar--mahalingam-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sridhar-mahalingam-6b8357245/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-sridharportfolio1.netlify.app-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://sridharportfolio1.netlify.app/)
+[![Email](https://img.shields.io/badge/Email-sridharansridhar22@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sridharansridhar22@gmail.com)
+
+<br/>
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sridhar08-glitch&show_icons=true&theme=dark&hide_border=true&count_private=true)](https://github.com/Sridhar08-glitch)
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Sridhar08-glitch&theme=dark&hide_border=true)](https://github.com/Sridhar08-glitch)
 
 </div>
 
@@ -323,6 +336,6 @@ SENTRY_DSN=
 
 <div align="center">
 
-Made with ❤️ · Flutter + Django
+Made with ❤️ by [Sridhar Mahalingam](https://github.com/Sridhar08-glitch) 
 
 </div>
