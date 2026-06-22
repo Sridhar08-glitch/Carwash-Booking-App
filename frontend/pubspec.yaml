@@ -1,0 +1,94 @@
+name: sridhar_carwash
+description: Sridhar Car Wash — Premium Car Care & Shop
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # Routing
+  go_router: ^13.2.0
+
+  # Networking
+  dio: ^5.4.3
+
+  # Models / serialization
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.9.0
+
+  # Local storage
+  flutter_secure_storage: ^9.2.2
+  hive_flutter: ^1.1.0
+
+  # Maps & location
+  google_maps_flutter: ^2.6.0
+  geolocator: ^11.0.0
+  geocoding: ^3.0.0
+
+  # Payments
+  flutter_stripe: ^10.1.1
+
+  # Push notifications
+  firebase_core: ^2.31.0
+  firebase_messaging: ^14.9.4
+  flutter_local_notifications: ^17.2.2
+
+  # Real-time (Phase 3 — included now so the dependency is wired)
+  web_socket_channel: ^2.4.5
+
+  # Images
+  cached_network_image: ^3.3.1
+  image_picker: ^1.1.2
+
+  # i18n
+  # Pinned to 0.20.2 by flutter_localizations on current Flutter SDKs —
+  # keep in sync or `flutter pub get` will fail to resolve.
+  intl: ^0.20.2
+
+  # UUID (idempotency keys)
+  uuid: ^4.4.0
+
+  # Connectivity
+  connectivity_plus: ^5.0.2
+
+  # Error monitoring
+  sentry_flutter: ^8.3.0
+
+  # Misc
+  shimmer: ^3.0.0
+  url_launcher: ^6.3.0
+  share_plus: ^9.0.0
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.11
+  riverpod_generator: ^2.4.0
+  freezed: ^2.5.2
+  json_serializable: ^6.8.0
+  mocktail: ^1.0.3
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/lottie/
+
+  fonts: []

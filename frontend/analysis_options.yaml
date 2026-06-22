@@ -1,0 +1,26 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    # Treat missing return types as warnings, not info
+    missing_return: warning
+    # Idiomatic Flutter — allow `avoid_print` in debug builds
+    avoid_print: ignore
+  exclude:
+    # Generated files
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+
+linter:
+  rules:
+    # Enforce server-side money rule: prefer_const_constructors
+    prefer_const_constructors: true
+    prefer_const_declarations: true
+    avoid_dynamic_calls: true
+    require_trailing_commas: true
+    # Named params for readability
+    always_put_required_named_parameters_first: true
+    # No implicit dynamic
+    avoid_annotating_with_dynamic: true
+    # Ensure all async is awaited
+    unawaited_futures: true
